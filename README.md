@@ -1,4 +1,3 @@
-# Pdf
 # PDF Image to Text Converter
 
 This project is a web application that allows users to convert PDF files and images into text, with support for the Arabic language. The application utilizes Optical Character Recognition (OCR) technology to extract text from various file formats.
