@@ -1,0 +1,33 @@
+{
+  "name": "pdf-image-to-text-converter",
+  "version": "1.0.0",
+  "description": "A web application that converts PDF files and images to text, supporting the Arabic language.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "pdf",
+    "image",
+    "text",
+    "converter",
+    "ocr",
+    "arabic"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "tesseract.js": "^2.1.1",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "babel-eslint": "^10.1.0"
+  }
+}
