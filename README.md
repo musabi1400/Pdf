@@ -12,15 +12,15 @@ This project is a web application that allows users to convert PDF files and ima
 ## Project Structure
 
 ```
-pdf-image-to-text-converter
+.
 ├── src
 │   ├── assets
 │   │   └── styles
 │   │       └── main.css
 │   ├── components
-│   │   ├── Header.js
+│   │   ├── Converter.js
 │   │   ├── Footer.js
-│   │   └── Converter.js
+│   │   └── Header.js
 │   ├── pages
 │   │   └── Home.js
 │   ├── services
@@ -29,13 +29,15 @@ pdf-image-to-text-converter
 │   │   └── fileUtils.js
 │   └── index.js
 ├── public
-│   ├── index.html
-│   └── favicon.ico
+│   ├── favicon.ico
+│   └── index.html
+├── Dockerfile
+├── README.md
 ├── package.json
-├── .babelrc
-├── .eslintrc.json
-├── .gitignore
-└── README.md
+├── package-lock.json
+├── .dockerignore
+├── .env
+└── .gitignore
 ```
 
 ## Installation
@@ -62,7 +64,7 @@ pdf-image-to-text-converter
    npm start
    ```
 
-2. Open your browser and go to `http://localhost:1429` to access the application.
+2. Open your browser and go to `http://localhost:1429` (or the port specified in `.env`) to access the application.
 
 3. Use the file upload feature to select a PDF or image file and convert it to text.
 
