@@ -62,7 +62,7 @@ pdf-image-to-text-converter
    npm start
    ```
 
-2. Open your browser and go to `http://localhost:3000` to access the application.
+2. Open your browser and go to `http://localhost:1429` to access the application.
 
 3. Use the file upload feature to select a PDF or image file and convert it to text.
 
