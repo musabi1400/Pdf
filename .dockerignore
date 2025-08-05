@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+build
+pdf-image-to-text-converter
+.git
+.gitignore
+Dockerfile
+.dockerignore
+npm-debug.log

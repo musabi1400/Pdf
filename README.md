@@ -66,6 +66,22 @@ pdf-image-to-text-converter
 
 3. Use the file upload feature to select a PDF or image file and convert it to text.
 
+## Docker
+
+To run the application using Docker:
+
+1. Build the image:
+   ```
+   docker build -t pdf-image-to-text-converter .
+   ```
+
+2. Start a container:
+   ```
+   docker run -p 1429:80 pdf-image-to-text-converter
+   ```
+
+3. Open `http://localhost:1429` in your browser to access the application.
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
