@@ -32,3 +32,16 @@ export const convertPdfToText = async (pdfFile) => {
         throw error;
     }
 };
+
+export const convertFileToText = async (file) => {
+    try {
+        if (file.type === 'application/pdf') {
+            return await convertPdfToText(file);
+        } else {
+            return await convertImageToText(file);
+        }
+    } catch (error) {
+        console.error('Error converting file:', error);
+        throw error;
+    }
+};
